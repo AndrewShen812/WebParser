@@ -9,14 +9,17 @@ import java.util.List;
 public interface ApkBusContract {
 
     interface Model {
-        List<Banner> getBanners();
+        void getBanners();
+        void getBlogs();
     }
 
     interface View {
         void showBanners(List<Banner> banners);
+        void showBlogs(List<Blog> blogs);
     }
 
     interface Presenter {
         void getBanners(List<Banner> banners);
+        void getBlogs(List<Blog> blogs);
     }
 }

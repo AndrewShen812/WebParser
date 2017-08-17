@@ -23,4 +23,9 @@ public class ApkBusPresenter implements ApkBusContract.Presenter {
     public void getBanners(List<Banner> banners) {
         mApkBusView.showBanners(banners);
     }
+
+    @Override
+    public void getBlogs(List<Blog> blogs) {
+
+    }
 }

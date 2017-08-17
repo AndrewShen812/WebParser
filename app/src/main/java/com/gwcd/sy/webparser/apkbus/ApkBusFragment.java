@@ -49,4 +49,9 @@ public class ApkBusFragment extends PageFragment implements ApkBusContract.View{
             mTvLabel.append(banner.toString() + "\n");
         }
     }
+
+    @Override
+    public void showBlogs(List<Blog> blogs) {
+
+    }
 }
