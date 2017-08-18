@@ -1,5 +1,7 @@
 package com.gwcd.sy.webparser;
 
+import android.util.Log;
+
 import java.io.IOException;
 
 import io.reactivex.Observable;
@@ -25,6 +27,7 @@ public class NetworkUtils {
         Observable.create(new ObservableOnSubscribe<String>() {
             @Override
             public void subscribe(@NonNull ObservableEmitter<String> e) throws Exception {
+                Log.d("--sy", "Http request thread id:" + android.os.Process.myTid());
                 OkHttpClient client = new OkHttpClient();
                 Request request = new Request.Builder().url(url).build();
                 Call call = client.newCall(request);

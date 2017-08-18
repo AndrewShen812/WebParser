@@ -19,6 +19,10 @@ public class ApkBusPresenter implements ApkBusContract.Presenter {
         mModel.getBanners();
     }
 
+    public void loadBlogs() {
+        mModel.getBlogs();
+    }
+
     @Override
     public void getBanners(List<Banner> banners) {
         mApkBusView.showBanners(banners);
@@ -26,6 +30,6 @@ public class ApkBusPresenter implements ApkBusContract.Presenter {
 
     @Override
     public void getBlogs(List<Blog> blogs) {
-
+        mApkBusView.showBlogs(blogs);
     }
 }

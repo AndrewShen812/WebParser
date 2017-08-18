@@ -3,4 +3,43 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="white_5">#0dffffff</color>
+    <color name="white_10">#1affffff</color>
+    <color name="white_15">#26ffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_30">#4Dffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_50">#7fffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_95">#f3ffffff</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="black_3">#08000000</color>
+    <color name="black_5">#0d000000</color>
+    <color name="black_10">#1a000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_70">#b2000000</color>
+    <color name="black_80">#CC000000</color>
+    <color name="black_85">#d9000000</color>
+    <color name="black_90">#E6000000</color>
+    <color name="black_95">#F3000000</color>
+
+    <color name="blog_bg1">#FF2EBF1C</color>
+    <color name="blog_bg2">#FF008AFF</color>
+    <color name="blog_bg3">#FFFF9933</color>
+    <color name="blog_bg4">#FF0288D1</color>
+    <color name="blog_bg5">#FFFA4F29</color>
+    <color name="blog_bg6">#FFFE9F14</color>
+    <color name="blog_bg7">#FF4CAF50</color>
+    <color name="blog_bg8">#FF795548</color>
+    <color name="blog_bg9">#FF512DA8</color>
+    <color name="blog_bg10">#FF009688</color>
 </resources>
