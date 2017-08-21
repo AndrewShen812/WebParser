@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/blog_bg1"
+    android:padding="@dimen/page_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_blog_list_user_icon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/tv_blog_list_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            android:text="user name"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:maxLines="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_blog_list_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_margin_mid"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@color/white_90"
+        android:textSize="18sp"
+        android:text="RecyclerView的侧拉效果"/>
+    <TextView
+        android:id="@+id/tv_blog_list_resume"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_80"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/page_margin_mid"
+        android:text="这里是一段比较长的简介文字"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_margin_mid"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_blog_list_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white_80"
+            android:text="两小时前"/>
+        <TextView
+            android:id="@+id/tv_blog_list_read_stat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textColor="@color/white_80"
+            android:text="阅读: 0  评论: 0  点赞: 0"/>
+    </LinearLayout>
+
+</LinearLayout>

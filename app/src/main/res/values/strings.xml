@@ -2,4 +2,5 @@
     <string name="app_name">WebParser</string>
     <string name="action_settings">Settings</string>
     <string name="page_apkbus">安卓巴士</string>
+    <string name="page_bing">Bing背景</string>
 </resources>

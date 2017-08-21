@@ -14,6 +14,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 
 import com.gwcd.sy.webparser.apkbus.ApkBusFragment;
+import com.gwcd.sy.webparser.bing.BingFragment;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
     private void initPageList() {
         mPageList = new ArrayList<>();
         mPageList.add(new PageHolder(R.string.page_apkbus, ApkBusFragment.class));
+        mPageList.add(new PageHolder(R.string.page_bing, BingFragment.class));
     }
 
     public class SectionsPagerAdapter extends FragmentPagerAdapter {
